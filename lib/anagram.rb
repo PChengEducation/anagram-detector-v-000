@@ -11,6 +11,7 @@ attr_accessor :@anagram_word1
       if anagram_word2.split("").sort == anagram_word1.split("").sort
         word
       end
+    end
   end
 
 end #end of the Anagram class
