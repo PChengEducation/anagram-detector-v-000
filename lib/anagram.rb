@@ -13,7 +13,7 @@ attr_accessor :word
     end
     word_array.sort_by{|k| k["value"]}
      array.each do |match_word|
-
+end
   end
 
 end #end of the Anagram class
