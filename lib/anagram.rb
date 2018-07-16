@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-attr_accessor :@anagram_worda
+attr_accessor :anagram_worda
 
   def initialize(anagram_worda)
     @anagram_worda = anagram_worda
