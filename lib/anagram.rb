@@ -8,7 +8,7 @@ attr_accessor :@anagram_word1
 
   def match(anagram_word2)
     anagram_word2.find_all do |word|
-      if anagram_word2.split("").sort == anagram_word1.split("").sort
+      if anagram_word2.split("").sort == @anagram_word1.split("").sort
         word
       end
     end
