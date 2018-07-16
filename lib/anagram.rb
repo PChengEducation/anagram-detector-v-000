@@ -1,14 +1,14 @@
 # Your code goes here!
 class Anagram
-attr_accessor :@anagram_word1
+attr_accessor :@anagram_worda
 
-  def initialize(anagram_word1)
-    @anagram_word1 = anagram_word1
+  def initialize(anagram_worda)
+    @anagram_worda = anagram_worda
   end
 
-  def match(anagram_word2)
-    anagram_word2.find_all do |word|
-      if anagram_word2.split("").sort == @anagram_word1.split("").sort
+  def match(anagram_wordb)
+    anagram_wordb.find_all do |word|
+      if anagram_wordb.split("").sort == @anagram_worda.split("").sort
         word
       end
     end
